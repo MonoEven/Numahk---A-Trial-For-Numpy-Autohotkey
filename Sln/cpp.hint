@@ -1,0 +1,2 @@
+#define NUMAHK_API __declspec(dllexport)
+#define NUMAHK_API __declspec(dllimport)
