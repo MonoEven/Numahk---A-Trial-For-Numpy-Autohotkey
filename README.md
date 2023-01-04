@@ -14,7 +14,8 @@ debug numahk.mean(a, axis:=1)
 ```
 
 > For ndarray, we can also use (ndarray).tolist() to make it to ahk-array.
-More work may be done in the future.
+> 
+> More work may be done in the future.
 
 ```Autohotkey
 numahk:(ndarray)
