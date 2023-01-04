@@ -1,6 +1,21 @@
 # Numahk---A-Trial-For-Numpy-Autohotkey
 A Trial For Numpy &amp; Autohotkey
 
+You can easily use it like:
+```Autohotkey
+#Include <data\debug>
+#Include <numahk\numahk>
+
+a := numahk.array([1,2,3,4,5,6], numahk.float64).reshape(2,3)
+debug a
+debug numahk.mean(a, axis:=1)
+; equal to
+; debug a.mean(axis:=1)
+```
+
+For ndarray, we can also use (ndarray).tolist() to make it to ahk-array.
+More work may be done in the future.
+
 numahk:(ndarray)
 ```Autohotkey
         add(ndarray)
