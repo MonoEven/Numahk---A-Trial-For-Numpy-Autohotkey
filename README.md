@@ -2,6 +2,7 @@
 A Trial For Numpy &amp; Autohotkey
 
 numahk:(ndarray)
+'''Autohotkey
         add(ndarray)
         all(axis := "")
         any(axis := "")
@@ -41,6 +42,7 @@ numahk:(ndarray)
         swapaxes(axis1, axis2)
         transpose(axes := "")
         var(axis := "")
+'''
 numahk.random:
         choice(ndarray, shape*)
         normal(loc := 0.0, scale := 1.0, shape*)
