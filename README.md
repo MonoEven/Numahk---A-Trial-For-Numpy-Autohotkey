@@ -44,9 +44,11 @@ numahk:(ndarray)
         var(axis := "")
 ```
 numahk.random:
+```Autohotkey
         choice(ndarray, shape*)
         normal(loc := 0.0, scale := 1.0, shape*)
         rand(shape*)
         randint(start, end, shape*)
         randn(shape*)
         seed(seed)
+```
