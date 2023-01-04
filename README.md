@@ -16,8 +16,8 @@ debug numahk.mean(a, axis:=1)
 For ndarray, we can also use (ndarray).tolist() to make it to ahk-array.
 More work may be done in the future.
 
-numahk:(ndarray)
 ```Autohotkey
+numahk:(ndarray)
         add(ndarray)
         all(axis := "")
         any(axis := "")
@@ -58,8 +58,9 @@ numahk:(ndarray)
         transpose(axes := "")
         var(axis := "")
 ```
-numahk.random:
+
 ```Autohotkey
+numahk.random:
         choice(ndarray, shape*)
         normal(loc := 0.0, scale := 1.0, shape*)
         rand(shape*)
